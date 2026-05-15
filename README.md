@@ -276,25 +276,32 @@ The following bonus features from the subject are implemented:
 
 ## Resources and AI usage
 
-Resources consulted during development:
+##  Video Tutorials (YouTube)
 
-* The project subject PDF (`CallMeMAybe.pdf`).
-* The evaluation sheet (`Intra Projects Call Me Maybe Edit.pdf`).
-* The moulinette source provided as part of the evaluation.
-* Python `argparse`, `json`, and `re` documentation.
+- [**Resource Link**](https://www.youtube.com/watch?v=dtLl37W68g8)
+- [**Resource Link**](https://www.youtube.com/watch?v=fuMKrKlaku4)
+- [**Resource Link**](https://www.youtube.com/watch?v=uHa_2i2S64Y)
+- [**Resource Link**](https://www.youtube.com/watch?v=6e_oFG4JVg8)
+- [**Resource Link**](https://www.youtube.com/watch?v=NGEZsqEUpC0)
+- [**Resource Link**](https://www.youtube.com/watch?v=9N6a-VLBa2I)
+- [**Resource Link**](https://www.youtube.com/watch?v=wJJ32FJxY-8)
+- [**Resource Link**](https://www.youtube.com/watch?v=4rFVLMBwjGY)
+
+##  Documentation & Articles
+
+- [**Resource Link**](https://docs.python.org/3/library/argparse.html)
+- [**Resource Link**](https://www.geeksforgeeks.org/python/read-json-file-using-python/)
+- [**Resource Link**](https://www.datacamp.com/tutorial/python-argparse)
+- [**Resource Link**](https://docs.pydantic.dev/latest/concepts/json/#partial-json-parsing)
+- [**Resource Link**](https://docs.pydantic.dev/latest/examples/files/)
+- [**Resource Link**](https://www.couchbase.com/blog/validate-json-documents-in-python-using-pydantic/)
+- [**Resource Link**](https://www.soumendrak.com/blog/how-to-validate-a-json-in-python/)
+- [**Resource Link**](https://www.datacamp.com/cheat-sheet/regular-expresso)
+
 * Pydantic v2 documentation.
-* mypy and flake8 documentation.
-* "Efficient Guided Generation for Large Language Models", Willard & Louf
-  (2023) — background reading on logit-masked decoding.
-* The Hugging Face course chapter on tokenisation (BPE, byte-level BPE).
-* The GPT-2 byte decoder reference implementation for the `Ġ`-style
-  byte-to-Unicode mapping.
+
 
 AI usage:
 
 AI was used as a learning and review assistant to clarify the constrained
-decoding algorithm, to suggest test cases covering the public and private
-moulinette sets, to draft documentation, and to point out gaps in the
-earlier implementation (missing `"integer"` support, heuristic function
-selection). Every algorithmic choice, edge case, and line of code in this
-submission has been reviewed by the author and is fully understood.
+decoding algorithm, to draft documentation. I used AI tools to learn new concept of the project by asking to explaining the concepts with simple examples. I also used AI to correct flake8 isssues, create makefile and writing tests.
